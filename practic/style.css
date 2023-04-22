@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #fff;
+    font-family: 'Ultra', serif;
+    color: #000;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.navigation-list{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+.headerNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    width: 290px;
+    height: 48px;
+    text-decoration: none;
+    font-family: 'Sans', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+.headerNav:hover{
+    transition: .5s;
+    background-color: #000;
+    color: #fff;
+}
+.btnContact{
+    width: 138px;
+    height: 48px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+.btnContact:hover{
+    background-color: #f9bf77;
+    color: #000;
+    transition: .5s;
+}
+.mainSection{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./img/spikelets.svg');
+    background-repeat: no-repeat;
+}
+.headerInformation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 791px;
+    background-color: rgb(231, 212, 190,0.44);
+}
+.product{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.headerInformation h2{
+    width: 467px;
+    height: 240px;
+    font-family: 'Ultra';
+    font-size: 72px
+}
+.textInfo{
+    margin-top: 0px;
+    width: 470px;
+    font-family: 'DM Sans';
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 400;
+} 
+.aboutUs{
+    display: flex;
+    justify-content: space-around;
+    height: 790px;
+    margin-top: 50px;
+}
+.imageSlider{
+    width: 50%;
+    /* border: 1px solid; */
+    background-image: url('./img/Shape.png');
+    background-position: 160px 242px;
+    background-repeat: no-repeat; 
+}
+.bitmap1{
+    position: absolute;
+    width: 370px;
+    height: 304px;
+    left: 138px;
+    top: 1040px;
+}
+.bitmap2{
+    position: absolute;
+    width: 411px;
+    height: 390px;
+    left: 250px;
+    top: 1276px;
+}
+.arrowUp{
+    cursor: pointer;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 735px;
+    top: 1328px;
+}
+.arrowDown{
+    cursor: pointer;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 735px;
+    top: 1390px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+.content h2{
+    width: 570px;
+    height: 131px;
+    top: 1083px;
+    left: 798px;
+    font-family: 'Ultra';
+    line-height: 64px;
+    font-size: 56px;
+    color: #000;
+}
+.content .textInfo{
+    font-family: 'Oswald';
+    line-height: 64px;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.content .textAfterNumber{
+    width: 128px;
+    font-family: 'Oswald';
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+}
+.textContent{
+    width: 370px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(51, 51, 51,0.49);
+}
+.listContent{
+    font-family: 'DMSans';
+    font-size: 16px;
+    line-height: 32px;
+    color: #171b1b;
+    padding: 0;
+}
+.afterHeader{
+    padding-left: 5%;
+}
